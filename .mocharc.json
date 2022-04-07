@@ -1,5 +1,6 @@
 {
   "spec": "./specs/**/*.spec.js",
   "reporter": "allure-mocha",
-  "require": "./grep.js"
+  "require": "./grep.js",
+  "reporter-option": "configFile=reporterConfig.json"
 }
