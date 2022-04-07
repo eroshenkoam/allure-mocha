@@ -1,10 +1,10 @@
-const { allure } = require("allure-mocha/runtime");
+const AllureRuntime = require("allure-mocha/runtime");
 
 describe("Allure", () => {
   it("some first simple spec", () => {});
   describe("dipper test", () => {
     it("some first second spec", () => {
-        console.log(allure)
+      AllureRuntime.allure.step("demo step created");
     });
   });
 });
